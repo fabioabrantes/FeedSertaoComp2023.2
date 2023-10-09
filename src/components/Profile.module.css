@@ -1,0 +1,72 @@
+.barSide{
+  background: var(--gray-800);
+  border-radius:0.5rem;
+  overflow: hidden;
+}
+
+.coverProfile{
+  width: 100%;
+  height:72px;
+  object-fit:cover;
+}
+.profileUser{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top:-2rem;
+}
+
+.profileUser img {
+  width:60px;
+  height:60px;
+
+  border-radius:8px;
+  
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-500);
+} 
+
+.nameUser{
+  margin-top:1rem;
+  color:var(--gray-100);
+  line-height:1.6rem;
+}
+.profileUser span{
+  color:var(--gray-400);
+  font-size:0.87rem;
+  line-height:1.6rem;
+} 
+
+.buttonEdit{
+  margin-top:1.5rem;
+  border-top: 1px solid var(--gray-600);
+
+  padding: 1rem 1.5rem; 
+
+}
+.buttonEdit a{
+  text-decoration:none;
+  color: var(--green-500);
+
+  width: 100%;
+  height: 50px;
+  
+  border:1px solid var(--green-500);
+  display:flex;
+  align-items: center;
+  justify-content:center;
+
+  border-radius:8px;
+
+  font-weight:bold;
+  gap:0.8rem;
+
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.buttonEdit a:hover {
+  background:var(--green-600);
+  color:var(--white);
+}
